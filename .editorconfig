@@ -1,0 +1,16 @@
+﻿# EditorConfig is awesome: https://EditorConfig.org
+
+# Indica que este es el archivo de configuración raíz
+root = true
+
+# Aplicar a todos los archivos
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Reglas específicas para Java y XML (pom.xml)
+[*.{java,xml}]
+indent_style = space
+indent_size = 4
