@@ -9,7 +9,15 @@
     <artifactId>Visitor</artifactId>
     <packaging>jar</packaging>
     <properties>
-        <maven.compiler.release>26</maven.compiler.release>
-        <exec.mainClass>co.edu.udistrital.visitor.Visitor</exec.mainClass>
+        <maven.compiler.release>25</maven.compiler.release>
+        <exec.mainClass>co.edu.udistrital.visitor.Main</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
